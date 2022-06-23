@@ -50,7 +50,7 @@ public class ICEPdfTest {
         StringBuilder imagePath = new StringBuilder();
         imagePath.append(System.getProperty("user.dir")).append(File.separator);
         imagePath.append("target").append(File.separator);
-        imagePath.append("proactor").append(File.separator);
+        imagePath.append("proactor");
 
         PdfParam pdfParam = new PdfParam.Builder()
                 .setFilePath(url.getPath())
